@@ -4,6 +4,7 @@
 provider "azurerm" {
   features {}
 
+  # subscription_id = file("credentials.txt")
 }
 
 
